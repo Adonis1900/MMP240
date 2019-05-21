@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Roboto+Mono&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: aliceblue;
+	font-family: 'Lora', serif;
+	background: url(james-owen-442400-unsplash.jpg) no-repeat center center fixed;
+	background-size: cover;
+	color: white;
+
+}
+
+
+
+/*navigation styles*/
+nav{
+	background-color: black;
+	text-align: center;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+}
+nav a:hover{
+	background-color: blue;
+	color:white;
+}
